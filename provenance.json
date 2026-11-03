@@ -1,0 +1,45 @@
+{
+  "schema": "fieldwork/example-provenance/1",
+  "retrieved": "2026-11-03",
+  "title": "Salmonella Braenderup outbreak case-control study, Germany 2021",
+  "source": "https://zenodo.org/records/7333295",
+  "doi": "10.5281/zenodo.7333295",
+  "publisher": "Zenodo",
+  "licence": {
+    "stated": "CC-BY-4.0",
+    "note": "Stated on the Zenodo record."
+  },
+  "files": [
+    {
+      "file": "data/Complete_dataset_Luczynska_et_al_2022.csv",
+      "md5": "58bf39c46db4c97988d046150cb5bda1",
+      "bytes": 130172
+    },
+    {
+      "file": "data/FM_HuGo_controls_Luczynska_et_al_2022.csv",
+      "md5": "b8e3a06d12aa26a5a04137e3176dce64",
+      "bytes": 37758
+    },
+    {
+      "file": "data/Codebook_Luczynska_et_al_2022.xlsx",
+      "md5": "3fa268cb7969c1cdab5e5aad1aca393c",
+      "bytes": 16818
+    }
+  ],
+  "derivation": "None. Files as published; md5 checksums match the Zenodo record's.",
+  "paper": {
+    "citation": "Łuczyńska A, et al. Epidemiol Infect. 2023;151:e70.",
+    "doi": "10.1017/S0950268823000493",
+    "licence": "CC-BY-4.0",
+    "read": "Full text read on PMC, 2026-11-03. The supplement was not read."
+  },
+  "verification": {
+    "againstPaperTable3": "April control counts for any melon, Galia, cantaloupe, honeydew and watermelon match, classical and matched panel",
+    "crudeOddsRatios": "Computed by an independent script from the files and by the app; they agree"
+  },
+  "limits": [
+    "Crude odds ratios; the paper's are adjusted for age and sex.",
+    "Every classical control has the id NA.",
+    "The matched file codes panel controls fall 0, which is the classical controls' code in the complete file."
+  ]
+}

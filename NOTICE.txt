@@ -1,0 +1,17 @@
+Salmonella Braenderup and melons, Germany 2021
+==============================================
+
+Data:     Luczynska A, Dreesman J, Mertens E, Wollenweber M, Perriat D,
+          Rosner B. Dataset for "Recruiting controls from an online panel for
+          a case-control study enabled a timely and reliable foodborne
+          Salmonella outbreak investigation, Germany 2021". Zenodo, 2022.
+          doi:10.5281/zenodo.7333295
+
+Terms:    Creative Commons Attribution 4.0 International, as stated on the
+          Zenodo record. https://creativecommons.org/licenses/by/4.0/
+          The licence text is in LICENSE-data.
+
+Changes:  None. The three files are as published, with matching checksums.
+
+The authors and their institutions are not associated with this example and
+have not endorsed it.
