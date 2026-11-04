@@ -15,6 +15,7 @@ ways of recruiting controls: by telephone (classical controls) and from an onlin
 | Which melon, against classical controls? | 4 | Six melon items, the week after Easter, 32 cases against 110 classical controls |
 | Which melon, against matched panel controls? | 7 | The same against the 81 panel controls matched on sex and age group |
 | Does the week asked about change the answer? | 4 | The first comparison, over the week before each control's interview |
+| Adjusted for age and sex, is Galia melon still the answer? | 4 | Logistic regression of case status on Galia melon in April, adjusted for age group (7 groups) and sex, with likelihood-ratio intervals: 96.4 (15.4–2067), the paper's 96 (15–2100) |
 
 Each declares a case-control design, so only odds ratios are reported. A case-control study cannot give attack
 rates.
@@ -25,8 +26,11 @@ second file. The appended table names the source of each row and numbers the row
 
 ## What the app computes, against what the paper reports
 
-The app computes crude odds ratios with 95% Wald intervals. The paper's are adjusted for age and sex by logistic
-regression (Table 4), so they are not expected to be equal.
+The two-by-two workflows compute crude odds ratios with 95% Wald intervals; the paper's are adjusted for age and sex by
+logistic regression, so those are not expected to be equal. The fourth workflow fits that regression (Fieldwork's
+Regression widget, experiment 167) and reproduces the paper's single-food adjusted ratio for Galia melon against
+classical controls, 96 (15–2100), as 96.4 (15.4–2067), with the paper's age grouping of seven groups and
+likelihood-ratio intervals. Against panel controls the same model gives 18.4 (4.6–101), the paper's 18 (4.6–100).
 
 | Galia melon | Cases exposed / not | Controls exposed / not | Crude, this example | Adjusted, paper |
 | --- | --- | --- | --- | --- |
