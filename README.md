@@ -97,6 +97,12 @@ Nordrhein-Westfalen 6, Niedersachsen 5, Bayern 5, Schleswig-Holstein 3, Hamburg 
 gives the 16 codes with each Land's ISO 3166-2 code and name, written for this example. The panel controls have no
 `bula`.
 
+## Notes
+
+The project carries five authored notes on the melons, in its Notes tab: three findings under Results (Galia melon
+against the matched panel controls; cantaloupe's single control and the other melons' none; the microbiology) and two
+limitations under Discussion (melons eaten together; crude ratios and many comparisons).
+
 ## What this does not establish
 
 - **No adjustment.** Age and sex are not adjusted for; the paper's estimates are.
