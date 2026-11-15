@@ -17,7 +17,7 @@ ways of recruiting controls: by telephone (classical controls) and from an onlin
 | Does the week asked about change the answer? | 4 | The first comparison, over the week before each control's interview |
 | Adjusted for age and sex, is Galia melon still the answer? | 4 | Logistic regression of case status on Galia melon in April, adjusted for age group (7 groups) and sex, with likelihood-ratio intervals: 96.4 (15.4–2067), the paper's 96 (15–2100) |
 | Who were the cases? | 6 | The 32 cases beside the 110 classical controls by age group and by sex, each group's share within cases and within controls |
-| Every food, against classical controls | 4 | All 34 fruit items of the questionnaire in one two-by-two, the week before illness or interview, in the questionnaire's order |
+| Which foods did cases eat more often than classical controls? | 4 | All 34 fruit items of the questionnaire in one two-by-two, the week before illness or interview, in the questionnaire's order |
 | Where did the cases shop? | 6 | How often the cases shop at an organic shop and at a market, counted for the cases alone |
 | Where did the cases live? | 10 | The cases by federal state, mapped over Germany's 16 Länder, a Land with no case in the study shown as 0 |
 
