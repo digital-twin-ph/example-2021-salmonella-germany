@@ -40,6 +40,33 @@
   "limits": [
     "Crude odds ratios; the paper's are adjusted for age and sex.",
     "Every classical control has the id NA.",
-    "The matched file codes panel controls fall 0, which is the classical controls' code in the complete file."
+    "The matched file codes panel controls fall 0, which is the classical controls' code in the complete file.",
+    "bioladen and markt were filled in for cases only, and neither is in the codebook.",
+    "bio joins two questions: for cases it repeats bioladen (organic shop), for controls it is read from biolm (organic food).",
+    "bula and kreis are not in the codebook; bula is read as the official state code."
+  ],
+  "boundaries": [
+    {
+      "what": "Germany's 16 federal states, for the map of where the cases lived",
+      "source": "Federal Agency for Cartography and Geodesy (BKG), as geoBoundaries publishes it (gbOpen, DEU, ADM1, boundaryID DEU-ADM1-10402087), year represented 2021",
+      "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/DEU/ADM1/geoBoundaries-DEU-ADM1_simplified.geojson",
+      "file": "geo/germany-laender.geojson",
+      "fileSha256": "511b3625ad4568d12a6bfcb1bdea4e877199e1923e502cb80224b8164128eb05",
+      "fileBytes": 1209873,
+      "retrieved": "2026-11-15",
+      "licence": "dl-de/by-2-0",
+      "licenceSource": "https://www.govdata.de/dl-de/by-2-0",
+      "attribution": "© GeoBasis-DE / BKG",
+      "use": "As published, 16 features named by shapeISO; also kept in fieldwork-project.json.gz."
+    }
+  ],
+  "authored": [
+    {
+      "file": "data/laender.csv",
+      "sha256": "ed8282ec48c1368d9f5fd74697ffd605ffb30376e2e079d95fe040a892424dde",
+      "bytes": 351,
+      "what": "The 16 federal states: the two-digit official state code as bula writes it (no leading zero), the ISO 3166-2 code geoBoundaries names each feature by, and the name.",
+      "why": "bula is not in the codebook. It is read as the official state code because kreis begins with it in all 110 classical controls; the cases have no kreis."
+    }
   ]
 }

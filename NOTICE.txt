@@ -13,5 +13,11 @@ Terms:    Creative Commons Attribution 4.0 International, as stated on the
 
 Changes:  None. The three files are as published, with matching checksums.
 
+Boundaries: geo/germany-laender.geojson. Federal states of Germany, 2021.
+          © GeoBasis-DE / BKG (Federal Agency for Cartography and Geodesy),
+          as published by geoBoundaries (gbOpen, DEU, ADM1,
+          DEU-ADM1-10402087). Data licence Germany – attribution – version
+          2.0, https://www.govdata.de/dl-de/by-2-0. Not changed.
+
 The authors and their institutions are not associated with this example and
 have not endorsed it.
